@@ -22,7 +22,7 @@
 #include "w1_int.h"
 
 #include "w1-sun4i.h"
-#include "gpio_def.h"
+#include "../gpio_defs.h"
 
 
 struct w1_bus_master *w1_sun4i_master = NULL;

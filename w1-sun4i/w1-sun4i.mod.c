@@ -25,6 +25,7 @@ __attribute__((section("__versions"))) = {
 	{ 0x20fd0cbb, "gpio_write_one_pin_value" },
 	{ 0x5fa32a89, "gpio_set_one_pin_io_status" },
 	{ 0x4b729722, "kmalloc_caches" },
+	{ 0x18c1474d, "w1_add_master_device" },
 	{ 0x383e8a27, "gpio_request_ex" },
 	{ 0x84c41780, "script_parser_fetch" },
 	{ 0x9a9ce393, "kmem_cache_alloc" },
@@ -33,6 +34,7 @@ __attribute__((section("__versions"))) = {
 	{ 0x2df11e47, "platform_device_unregister" },
 	{ 0x344a50ed, "gpio_release" },
 	{ 0x37a0cba, "kfree" },
+	{ 0xdc36bb2c, "w1_remove_master_device" },
 };
 
 static const char __module_depends[]
@@ -41,4 +43,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "C7CCDE57C2BBC861E356D7A");
+MODULE_INFO(srcversion, "2D0710B2EDEC3391159DDB7");
